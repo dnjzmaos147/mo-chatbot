@@ -1,0 +1,97 @@
+<!------ Include the above in your HEAD tag ---------->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/css/styles.css">
+</head>
+
+<body>
+    <div class="wraper">
+        <div class="chatbot">
+            <img src="./static/image/logo1.png">
+            <div class="frame">
+                <ul>
+                    <!--여기가 채팅내용-->
+                </ul>
+                <div class="send-box">
+                    <!--input-->
+                    <div class="msj-input">
+                        <input class="mytext" placeholder="메세지를 입력하세요." />
+                    </div>
+                    <div class="send">
+                        <!--전송버튼-->
+                        <span class="glyphicon glyphicon-share-alt"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contents">
+            <div class="hom-div">
+                <p class="notice-p">홈페이지 주소</p>
+                <ol>
+                    <li><a href="https://www.daelim.ac.kr/hme/main.do" target="_blank">대림대 메인페이지</a></li>
+                    <li><a href="https://dept.daelim.ac.kr/mbi/mainPage.do" target="_blank">모바일인터넷과 홈페이지</a></li>
+                    <li><a href="https://pt.daelim.ac.kr/" target="_blank">대림대 학생포털</a></li>
+                    <li><a href="https://ent2.daelim.ac.kr/ipsi/index.do" target="_blank">대림대 입학 홈페이지</a></li>
+                    <!-- <li></li> -->
+                </ol>
+            </div>
+
+            <style>
+                tr{
+                    height: 30px;
+                }
+            </style>
+            <div class="notice-div">
+                <p class="notice-p">학과 공지사항</p>
+                <table style="text-align: center; width: 100%; margin: auto;">
+                    <tr>
+                        <td style="width: 30px;">18</td><td>2020학년도 2학기 시간표 게시</td><td>양준영</td><td>2020-08-11</td>
+                    </tr>
+                    <tr>
+                        <td style="width: 30px;">17</td><td>실시간 원격 수업 사용 프로그램 메뉴얼</td><td>양준영</td><td>2020-03-20</td>
+                    
+                    </tr>
+                    <tr>
+                        <td style="width: 30px;">16</td><td>강의계획서 열람 방법</td><td>양준영</td><td>2020-03-17</td>
+                    </tr>
+                    <tr>
+                        <td style="width: 30px;">15</td><td>MS Office365 설치 방법</td><td>양준영</td><td>2020-03-16</td>
+                    </tr>
+                    <tr>
+                        <td style="width: 30px;">14</td><td>원격수업 형태 강의 수강 방법</td><td>양준영</td><td>2020-03-06</td>
+                    </tr>
+                    <tr>
+                        <td style="width: 30px;">13</td><td>2020학년도 1학기 시간표 게시</td><td>양준영</td><td>2020-02-07</td>
+                    </tr>
+                    <tr>
+                        <td style="width: 30px;">12</td><td>2020학년도 대림대학교 면접고사 배치표</td><td>오지영</td><td>2019-10-07</td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        let sd = '{{schedule}}';
+    </script>
+    
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="../static/js/45.js"></script>
+
+    
+</body>
+
+</html>
